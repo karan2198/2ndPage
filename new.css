@@ -1,0 +1,95 @@
+.top1 {
+    display: flex;
+    flex-direction: row;
+}
+.face {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    /* Set image as inline-block */
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-right: 10px
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+.floating-box {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    width: 60vw;
+    height: auto;
+    background-color: #FEFAE7;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    margin: 30px auto; /* Center horizontally and add margin at the top and bottom */
+}
+.top2 {
+    position: absolute;
+    top: 3px;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+
+}
+
+/* Style your boxes as needed */
+.class1,
+.class2,
+.class3,
+.class4 {
+    /* background-color: #e0e0e0; */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Adjust styles as needed */
+.class2,
+.class3{
+        height: 40vh;
+}
+
+.class1 {
+    align-self: flex-start;
+    /* Align to the top */
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: medium;
+    box-sizing: border-box
+}
+.class4 {
+   
+    text-align: left;
+    /* Align text to the right */
+    padding-right: 30px;
+    padding-bottom: 20px;
+    font-size: medium;
+    box-sizing: border-box
+}
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.dot {
+    width: 10px; /* Adjust the width of the dot */
+    height: 10px; /* Adjust the height of the dot */
+    margin-right: 10px; /* Adjust the space between the dot and the text */
+}
+
+.list p {
+    margin: 5px 0; /* Adjust the space above and below each paragraph */
+    text-indent: 20px; /* Set the indentation for the paragraph */
+}
+
+
+
+
+
+
